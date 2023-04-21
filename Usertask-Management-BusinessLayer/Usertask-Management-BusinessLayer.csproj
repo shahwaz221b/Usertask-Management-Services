@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Usertask_Management_BusinessLayer</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Usertask-Management-Entity\Usertask-Management-Entity.csproj" />
+    <ProjectReference Include="..\Usertask-Management-Repository\Usertask-Management-Repository.csproj" />
+  </ItemGroup>
+
+</Project>
